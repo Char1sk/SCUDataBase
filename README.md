@@ -11,3 +11,8 @@
 
 - 对应文件：PrimerTest 目录
 - 对应分支：test0
+
+### 第二次，2021-10-11
+
+- 对应文件：Homework1 目录
+- 对应分支：Homework1
