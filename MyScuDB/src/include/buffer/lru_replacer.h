@@ -9,6 +9,9 @@
 
 #pragma once
 
+#include <list>
+#include <algorithm>
+#include <mutex>
 #include "buffer/replacer.h"
 #include "hash/extendible_hash.h"
 
@@ -16,21 +19,23 @@ namespace scudb {
 
 template <typename T> class LRUReplacer : public Replacer<T> {
 public:
-  // do not change public interface
-  LRUReplacer();
+    // do not change public interface
+    LRUReplacer();
 
-  ~LRUReplacer();
+    ~LRUReplacer();
 
-  void Insert(const T &value);
+    void Insert(const T &value);
 
-  bool Victim(T &value);
+    bool Victim(T &value);
 
-  bool Erase(const T &value);
+    bool Erase(const T &value);
 
-  size_t Size();
+    size_t Size();
 
 private:
-  // add your member variables here
+    std::list<T> dlist;
+    std::mutex mutex;
+    bool noMutexErase(const T &value);
 };
 
 } // namespace scudb
