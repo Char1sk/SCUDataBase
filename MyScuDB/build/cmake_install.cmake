@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/the_remote_city/Database/scudb_initial
+# Install script for directory: /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/the_remote_city/Database/scudb_initial/build/src/cmake_install.cmake")
-  include("/mnt/d/the_remote_city/Database/scudb_initial/build/test/cmake_install.cmake")
+  include("/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src/cmake_install.cmake")
+  include("/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/the_remote_city/Database/scudb_initial/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

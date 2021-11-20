@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/sqlite3.c
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/sqlite3.c
 config.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/config.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/config.h
 vxWorks.h
 -
 pthread.h
 -
 mingw.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/mingw.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/mingw.h
 _mingw.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/_mingw.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/_mingw.h
 stdarg.h
 -
 stdint.h
@@ -54,7 +54,7 @@ malloc.h
 pthread.h
 -
 windows.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/windows.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/windows.h
 sys/cygwin.h
 -
 errno.h
@@ -98,11 +98,11 @@ sys/statvfs.h
 dlfcn.h
 -
 sqlite_tcl.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/sqlite_tcl.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/sqlite_tcl.h
 tcl.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/tcl.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/tcl.h
 sqlite3rtree.h
-/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/sqlite3rtree.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/sqlite3rtree.h
 unicode/utypes.h
 -
 unicode/uregex.h

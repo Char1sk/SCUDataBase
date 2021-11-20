@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/the_remote_city/Database/scudb_initial
+CMAKE_SOURCE_DIR = /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/scudb_initial/build
+CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build
 
 # Utility rule file for check.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/scudb_initial/build
 include test/CMakeFiles/check.dir/progress.make
 
 test/CMakeFiles/check:
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/test && /usr/bin/ctest --verbose
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test && /usr/bin/ctest --verbose
 
 check: test/CMakeFiles/check
 check: test/CMakeFiles/check.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/check.dir/build: check
 .PHONY : test/CMakeFiles/check.dir/build
 
 test/CMakeFiles/check.dir/clean:
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/test && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/check.dir/clean
 
 test/CMakeFiles/check.dir/depend:
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/the_remote_city/Database/scudb_initial /mnt/d/the_remote_city/Database/scudb_initial/test /mnt/d/the_remote_city/Database/scudb_initial/build /mnt/d/the_remote_city/Database/scudb_initial/build/test /mnt/d/the_remote_city/Database/scudb_initial/build/test/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/test /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/check.dir/depend
 

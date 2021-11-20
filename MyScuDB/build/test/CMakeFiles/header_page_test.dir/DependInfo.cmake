@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/the_remote_city/Database/scudb_initial/test/table/header_page_test.cpp" "/mnt/d/the_remote_city/Database/scudb_initial/build/test/CMakeFiles/header_page_test.dir/table/header_page_test.cpp.o"
+  "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/test/table/header_page_test.cpp" "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test/CMakeFiles/header_page_test.dir/table/header_page_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,9 +19,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/d/the_remote_city/Database/scudb_initial/build/src/CMakeFiles/vtable.dir/DependInfo.cmake"
-  "/mnt/d/the_remote_city/Database/scudb_initial/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake"
-  "/mnt/d/the_remote_city/Database/scudb_initial/build/test/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src/CMakeFiles/vtable.dir/DependInfo.cmake"
+  "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake"
+  "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/test/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

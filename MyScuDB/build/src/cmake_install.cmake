@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/the_remote_city/Database/scudb_initial/src
+# Install script for directory: /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

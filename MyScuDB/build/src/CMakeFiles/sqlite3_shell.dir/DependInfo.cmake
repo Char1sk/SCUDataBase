@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/d/the_remote_city/Database/scudb_initial/src/sqlite/shell.c" "/mnt/d/the_remote_city/Database/scudb_initial/build/src/CMakeFiles/sqlite3_shell.dir/sqlite/shell.c.o"
+  "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/sqlite/shell.c" "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src/CMakeFiles/sqlite3_shell.dir/sqlite/shell.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -23,7 +23,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/d/the_remote_city/Database/scudb_initial/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake"
+  "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /mnt/d/the_remote_city/Database/scudb_initial
-BuildDirectory: /mnt/d/the_remote_city/Database/scudb_initial/build
+SourceDirectory: /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB
+BuildDirectory: /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/mnt/d/the_remote_city/Database/scudb_initial"
+ConfigureCommand: "/usr/bin/cmake" "/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -67,9 +67,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: /usr/bin/c++

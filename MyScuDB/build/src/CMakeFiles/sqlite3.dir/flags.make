@@ -6,5 +6,5 @@ C_FLAGS = -fPIC
 
 C_DEFINES = -DSQLITE_THREADSAFE=2 -Dsqlite3_EXPORTS
 
-C_INCLUDES = -I/mnt/d/the_remote_city/Database/scudb_initial/src -I/mnt/d/the_remote_city/Database/scudb_initial/src/include -I/mnt/d/the_remote_city/Database/scudb_initial/test/include -I/mnt/d/the_remote_city/Database/scudb_initial/third_party 
+C_INCLUDES = -I/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src -I/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/include -I/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/test/include -I/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/third_party 
 

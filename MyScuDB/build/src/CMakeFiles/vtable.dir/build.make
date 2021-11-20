@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/the_remote_city/Database/scudb_initial
+CMAKE_SOURCE_DIR = /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/scudb_initial/build
+CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/vtable.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/vtable.dir/flags.make
 
 src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o: ../src/buffer/buffer_pool_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/buffer/buffer_pool_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/buffer/buffer_pool_manager.cpp
 
 src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/buffer/buffer_pool_manager.cpp > CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/buffer/buffer_pool_manager.cpp > CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.i
 
 src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/buffer/buffer_pool_manager.cpp -o CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/buffer/buffer_pool_manager.cpp -o CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.s
 
 src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/vtable.dir/buffer/buffer_pool_manager.cpp.o.provides.build: src/C
 
 src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o: ../src/buffer/lru_replacer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/buffer/lru_replacer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/buffer/lru_replacer.cpp
 
 src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/buffer/lru_replacer.cpp > CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/buffer/lru_replacer.cpp > CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.i
 
 src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/buffer/lru_replacer.cpp -o CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/buffer/lru_replacer.cpp -o CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.s
 
 src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/vtable.dir/buffer/lru_replacer.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/vtable.dir/catalog/column.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/catalog/column.cpp.o: ../src/catalog/column.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/vtable.dir/catalog/column.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/catalog/column.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/catalog/column.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/vtable.dir/catalog/column.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/catalog/column.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/catalog/column.cpp
 
 src/CMakeFiles/vtable.dir/catalog/column.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/catalog/column.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/catalog/column.cpp > CMakeFiles/vtable.dir/catalog/column.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/catalog/column.cpp > CMakeFiles/vtable.dir/catalog/column.cpp.i
 
 src/CMakeFiles/vtable.dir/catalog/column.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/catalog/column.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/catalog/column.cpp -o CMakeFiles/vtable.dir/catalog/column.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/catalog/column.cpp -o CMakeFiles/vtable.dir/catalog/column.cpp.s
 
 src/CMakeFiles/vtable.dir/catalog/column.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/vtable.dir/catalog/column.cpp.o.provides.build: src/CMakeFiles/vt
 
 src/CMakeFiles/vtable.dir/catalog/schema.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/catalog/schema.cpp.o: ../src/catalog/schema.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/vtable.dir/catalog/schema.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/catalog/schema.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/catalog/schema.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/vtable.dir/catalog/schema.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/catalog/schema.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/catalog/schema.cpp
 
 src/CMakeFiles/vtable.dir/catalog/schema.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/catalog/schema.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/catalog/schema.cpp > CMakeFiles/vtable.dir/catalog/schema.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/catalog/schema.cpp > CMakeFiles/vtable.dir/catalog/schema.cpp.i
 
 src/CMakeFiles/vtable.dir/catalog/schema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/catalog/schema.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/catalog/schema.cpp -o CMakeFiles/vtable.dir/catalog/schema.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/catalog/schema.cpp -o CMakeFiles/vtable.dir/catalog/schema.cpp.s
 
 src/CMakeFiles/vtable.dir/catalog/schema.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/vtable.dir/catalog/schema.cpp.o.provides.build: src/CMakeFiles/vt
 
 src/CMakeFiles/vtable.dir/common/config.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/common/config.cpp.o: ../src/common/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/vtable.dir/common/config.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/common/config.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/common/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/vtable.dir/common/config.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/common/config.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/common/config.cpp
 
 src/CMakeFiles/vtable.dir/common/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/common/config.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/common/config.cpp > CMakeFiles/vtable.dir/common/config.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/common/config.cpp > CMakeFiles/vtable.dir/common/config.cpp.i
 
 src/CMakeFiles/vtable.dir/common/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/common/config.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/common/config.cpp -o CMakeFiles/vtable.dir/common/config.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/common/config.cpp -o CMakeFiles/vtable.dir/common/config.cpp.s
 
 src/CMakeFiles/vtable.dir/common/config.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/vtable.dir/common/config.cpp.o.provides.build: src/CMakeFiles/vta
 
 src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o: ../src/concurrency/lock_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/concurrency/lock_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/concurrency/lock_manager.cpp
 
 src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/concurrency/lock_manager.cpp > CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/concurrency/lock_manager.cpp > CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.i
 
 src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/concurrency/lock_manager.cpp -o CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/concurrency/lock_manager.cpp -o CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.s
 
 src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o.requires:
 
@@ -203,16 +203,16 @@ src/CMakeFiles/vtable.dir/concurrency/lock_manager.cpp.o.provides.build: src/CMa
 
 src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o: ../src/concurrency/transaction_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/concurrency/transaction_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/concurrency/transaction_manager.cpp
 
 src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/concurrency/transaction_manager.cpp > CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/concurrency/transaction_manager.cpp > CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.i
 
 src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/concurrency/transaction_manager.cpp -o CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/concurrency/transaction_manager.cpp -o CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.s
 
 src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o.requires:
 
@@ -227,16 +227,16 @@ src/CMakeFiles/vtable.dir/concurrency/transaction_manager.cpp.o.provides.build: 
 
 src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.o: ../src/disk/disk_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/disk/disk_manager.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/disk/disk_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/disk/disk_manager.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/disk/disk_manager.cpp
 
 src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/disk/disk_manager.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/disk/disk_manager.cpp > CMakeFiles/vtable.dir/disk/disk_manager.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/disk/disk_manager.cpp > CMakeFiles/vtable.dir/disk/disk_manager.cpp.i
 
 src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/disk/disk_manager.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/disk/disk_manager.cpp -o CMakeFiles/vtable.dir/disk/disk_manager.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/disk/disk_manager.cpp -o CMakeFiles/vtable.dir/disk/disk_manager.cpp.s
 
 src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.o.requires:
 
@@ -251,16 +251,16 @@ src/CMakeFiles/vtable.dir/disk/disk_manager.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o: ../src/hash/extendible_hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/hash/extendible_hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/hash/extendible_hash.cpp
 
 src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/hash/extendible_hash.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/hash/extendible_hash.cpp > CMakeFiles/vtable.dir/hash/extendible_hash.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/hash/extendible_hash.cpp > CMakeFiles/vtable.dir/hash/extendible_hash.cpp.i
 
 src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/hash/extendible_hash.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/hash/extendible_hash.cpp -o CMakeFiles/vtable.dir/hash/extendible_hash.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/hash/extendible_hash.cpp -o CMakeFiles/vtable.dir/hash/extendible_hash.cpp.s
 
 src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o.requires:
 
@@ -275,16 +275,16 @@ src/CMakeFiles/vtable.dir/hash/extendible_hash.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o: ../src/index/b_plus_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/index/b_plus_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/b_plus_tree.cpp
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/index/b_plus_tree.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/index/b_plus_tree.cpp > CMakeFiles/vtable.dir/index/b_plus_tree.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/b_plus_tree.cpp > CMakeFiles/vtable.dir/index/b_plus_tree.cpp.i
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/index/b_plus_tree.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/index/b_plus_tree.cpp -o CMakeFiles/vtable.dir/index/b_plus_tree.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/b_plus_tree.cpp -o CMakeFiles/vtable.dir/index/b_plus_tree.cpp.s
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o.requires:
 
@@ -299,16 +299,16 @@ src/CMakeFiles/vtable.dir/index/b_plus_tree.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o: ../src/index/b_plus_tree_index.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/index/b_plus_tree_index.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/b_plus_tree_index.cpp
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/index/b_plus_tree_index.cpp > CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/b_plus_tree_index.cpp > CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.i
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/index/b_plus_tree_index.cpp -o CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/b_plus_tree_index.cpp -o CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.s
 
 src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o.requires:
 
@@ -323,16 +323,16 @@ src/CMakeFiles/vtable.dir/index/b_plus_tree_index.cpp.o.provides.build: src/CMak
 
 src/CMakeFiles/vtable.dir/index/index_iterator.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/index/index_iterator.cpp.o: ../src/index/index_iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/vtable.dir/index/index_iterator.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/index/index_iterator.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/index/index_iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/vtable.dir/index/index_iterator.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/index/index_iterator.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/index_iterator.cpp
 
 src/CMakeFiles/vtable.dir/index/index_iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/index/index_iterator.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/index/index_iterator.cpp > CMakeFiles/vtable.dir/index/index_iterator.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/index_iterator.cpp > CMakeFiles/vtable.dir/index/index_iterator.cpp.i
 
 src/CMakeFiles/vtable.dir/index/index_iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/index/index_iterator.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/index/index_iterator.cpp -o CMakeFiles/vtable.dir/index/index_iterator.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/index/index_iterator.cpp -o CMakeFiles/vtable.dir/index/index_iterator.cpp.s
 
 src/CMakeFiles/vtable.dir/index/index_iterator.cpp.o.requires:
 
@@ -347,16 +347,16 @@ src/CMakeFiles/vtable.dir/index/index_iterator.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/vtable.dir/logging/log_manager.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/logging/log_manager.cpp.o: ../src/logging/log_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/vtable.dir/logging/log_manager.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/logging/log_manager.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/logging/log_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/vtable.dir/logging/log_manager.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/logging/log_manager.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/logging/log_manager.cpp
 
 src/CMakeFiles/vtable.dir/logging/log_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/logging/log_manager.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/logging/log_manager.cpp > CMakeFiles/vtable.dir/logging/log_manager.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/logging/log_manager.cpp > CMakeFiles/vtable.dir/logging/log_manager.cpp.i
 
 src/CMakeFiles/vtable.dir/logging/log_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/logging/log_manager.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/logging/log_manager.cpp -o CMakeFiles/vtable.dir/logging/log_manager.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/logging/log_manager.cpp -o CMakeFiles/vtable.dir/logging/log_manager.cpp.s
 
 src/CMakeFiles/vtable.dir/logging/log_manager.cpp.o.requires:
 
@@ -371,16 +371,16 @@ src/CMakeFiles/vtable.dir/logging/log_manager.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.o: ../src/logging/log_recovery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/logging/log_recovery.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/logging/log_recovery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/logging/log_recovery.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/logging/log_recovery.cpp
 
 src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/logging/log_recovery.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/logging/log_recovery.cpp > CMakeFiles/vtable.dir/logging/log_recovery.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/logging/log_recovery.cpp > CMakeFiles/vtable.dir/logging/log_recovery.cpp.i
 
 src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/logging/log_recovery.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/logging/log_recovery.cpp -o CMakeFiles/vtable.dir/logging/log_recovery.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/logging/log_recovery.cpp -o CMakeFiles/vtable.dir/logging/log_recovery.cpp.s
 
 src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.o.requires:
 
@@ -395,16 +395,16 @@ src/CMakeFiles/vtable.dir/logging/log_recovery.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o: ../src/page/b_plus_tree_internal_page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_internal_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_internal_page.cpp
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_internal_page.cpp > CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_internal_page.cpp > CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.i
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_internal_page.cpp -o CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_internal_page.cpp -o CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.s
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o.requires:
 
@@ -419,16 +419,16 @@ src/CMakeFiles/vtable.dir/page/b_plus_tree_internal_page.cpp.o.provides.build: s
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o: ../src/page/b_plus_tree_leaf_page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_leaf_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_leaf_page.cpp
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_leaf_page.cpp > CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_leaf_page.cpp > CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.i
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_leaf_page.cpp -o CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_leaf_page.cpp -o CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.s
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o.requires:
 
@@ -443,16 +443,16 @@ src/CMakeFiles/vtable.dir/page/b_plus_tree_leaf_page.cpp.o.provides.build: src/C
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o: ../src/page/b_plus_tree_page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_page.cpp
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_page.cpp > CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_page.cpp > CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.i
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/page/b_plus_tree_page.cpp -o CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_page.cpp -o CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.s
 
 src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o.requires:
 
@@ -467,16 +467,16 @@ src/CMakeFiles/vtable.dir/page/b_plus_tree_page.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/vtable.dir/page/header_page.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/page/header_page.cpp.o: ../src/page/header_page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/vtable.dir/page/header_page.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/header_page.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/page/header_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/vtable.dir/page/header_page.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/header_page.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/header_page.cpp
 
 src/CMakeFiles/vtable.dir/page/header_page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/page/header_page.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/page/header_page.cpp > CMakeFiles/vtable.dir/page/header_page.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/header_page.cpp > CMakeFiles/vtable.dir/page/header_page.cpp.i
 
 src/CMakeFiles/vtable.dir/page/header_page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/page/header_page.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/page/header_page.cpp -o CMakeFiles/vtable.dir/page/header_page.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/header_page.cpp -o CMakeFiles/vtable.dir/page/header_page.cpp.s
 
 src/CMakeFiles/vtable.dir/page/header_page.cpp.o.requires:
 
@@ -491,16 +491,16 @@ src/CMakeFiles/vtable.dir/page/header_page.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/vtable.dir/page/table_page.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/page/table_page.cpp.o: ../src/page/table_page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/vtable.dir/page/table_page.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/table_page.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/page/table_page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/vtable.dir/page/table_page.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/page/table_page.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/table_page.cpp
 
 src/CMakeFiles/vtable.dir/page/table_page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/page/table_page.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/page/table_page.cpp > CMakeFiles/vtable.dir/page/table_page.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/table_page.cpp > CMakeFiles/vtable.dir/page/table_page.cpp.i
 
 src/CMakeFiles/vtable.dir/page/table_page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/page/table_page.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/page/table_page.cpp -o CMakeFiles/vtable.dir/page/table_page.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/table_page.cpp -o CMakeFiles/vtable.dir/page/table_page.cpp.s
 
 src/CMakeFiles/vtable.dir/page/table_page.cpp.o.requires:
 
@@ -515,16 +515,16 @@ src/CMakeFiles/vtable.dir/page/table_page.cpp.o.provides.build: src/CMakeFiles/v
 
 src/CMakeFiles/vtable.dir/table/table_heap.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/table/table_heap.cpp.o: ../src/table/table_heap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/vtable.dir/table/table_heap.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/table/table_heap.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/table/table_heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/vtable.dir/table/table_heap.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/table/table_heap.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/table_heap.cpp
 
 src/CMakeFiles/vtable.dir/table/table_heap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/table/table_heap.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/table/table_heap.cpp > CMakeFiles/vtable.dir/table/table_heap.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/table_heap.cpp > CMakeFiles/vtable.dir/table/table_heap.cpp.i
 
 src/CMakeFiles/vtable.dir/table/table_heap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/table/table_heap.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/table/table_heap.cpp -o CMakeFiles/vtable.dir/table/table_heap.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/table_heap.cpp -o CMakeFiles/vtable.dir/table/table_heap.cpp.s
 
 src/CMakeFiles/vtable.dir/table/table_heap.cpp.o.requires:
 
@@ -539,16 +539,16 @@ src/CMakeFiles/vtable.dir/table/table_heap.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/vtable.dir/table/table_iterator.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/table/table_iterator.cpp.o: ../src/table/table_iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/vtable.dir/table/table_iterator.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/table/table_iterator.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/table/table_iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/vtable.dir/table/table_iterator.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/table/table_iterator.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/table_iterator.cpp
 
 src/CMakeFiles/vtable.dir/table/table_iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/table/table_iterator.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/table/table_iterator.cpp > CMakeFiles/vtable.dir/table/table_iterator.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/table_iterator.cpp > CMakeFiles/vtable.dir/table/table_iterator.cpp.i
 
 src/CMakeFiles/vtable.dir/table/table_iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/table/table_iterator.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/table/table_iterator.cpp -o CMakeFiles/vtable.dir/table/table_iterator.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/table_iterator.cpp -o CMakeFiles/vtable.dir/table/table_iterator.cpp.s
 
 src/CMakeFiles/vtable.dir/table/table_iterator.cpp.o.requires:
 
@@ -563,16 +563,16 @@ src/CMakeFiles/vtable.dir/table/table_iterator.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/vtable.dir/table/tuple.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/table/tuple.cpp.o: ../src/table/tuple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/vtable.dir/table/tuple.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/table/tuple.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/table/tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/vtable.dir/table/tuple.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/table/tuple.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/tuple.cpp
 
 src/CMakeFiles/vtable.dir/table/tuple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/table/tuple.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/table/tuple.cpp > CMakeFiles/vtable.dir/table/tuple.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/tuple.cpp > CMakeFiles/vtable.dir/table/tuple.cpp.i
 
 src/CMakeFiles/vtable.dir/table/tuple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/table/tuple.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/table/tuple.cpp -o CMakeFiles/vtable.dir/table/tuple.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/table/tuple.cpp -o CMakeFiles/vtable.dir/table/tuple.cpp.s
 
 src/CMakeFiles/vtable.dir/table/tuple.cpp.o.requires:
 
@@ -587,16 +587,16 @@ src/CMakeFiles/vtable.dir/table/tuple.cpp.o.provides.build: src/CMakeFiles/vtabl
 
 src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o: ../src/type/bigint_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/bigint_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/bigint_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/bigint_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/bigint_type.cpp
 
 src/CMakeFiles/vtable.dir/type/bigint_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/bigint_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/bigint_type.cpp > CMakeFiles/vtable.dir/type/bigint_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/bigint_type.cpp > CMakeFiles/vtable.dir/type/bigint_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/bigint_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/bigint_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/bigint_type.cpp -o CMakeFiles/vtable.dir/type/bigint_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/bigint_type.cpp -o CMakeFiles/vtable.dir/type/bigint_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o.requires:
 
@@ -611,16 +611,16 @@ src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o: ../src/type/boolean_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/boolean_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/boolean_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/boolean_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/boolean_type.cpp
 
 src/CMakeFiles/vtable.dir/type/boolean_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/boolean_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/boolean_type.cpp > CMakeFiles/vtable.dir/type/boolean_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/boolean_type.cpp > CMakeFiles/vtable.dir/type/boolean_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/boolean_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/boolean_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/boolean_type.cpp -o CMakeFiles/vtable.dir/type/boolean_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/boolean_type.cpp -o CMakeFiles/vtable.dir/type/boolean_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o.requires:
 
@@ -635,16 +635,16 @@ src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o: ../src/type/decimal_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/decimal_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/decimal_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/decimal_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/decimal_type.cpp
 
 src/CMakeFiles/vtable.dir/type/decimal_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/decimal_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/decimal_type.cpp > CMakeFiles/vtable.dir/type/decimal_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/decimal_type.cpp > CMakeFiles/vtable.dir/type/decimal_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/decimal_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/decimal_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/decimal_type.cpp -o CMakeFiles/vtable.dir/type/decimal_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/decimal_type.cpp -o CMakeFiles/vtable.dir/type/decimal_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o.requires:
 
@@ -659,16 +659,16 @@ src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o: ../src/type/integer_parent_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/integer_parent_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/integer_parent_type.cpp
 
 src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/integer_parent_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/integer_parent_type.cpp > CMakeFiles/vtable.dir/type/integer_parent_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/integer_parent_type.cpp > CMakeFiles/vtable.dir/type/integer_parent_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/integer_parent_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/integer_parent_type.cpp -o CMakeFiles/vtable.dir/type/integer_parent_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/integer_parent_type.cpp -o CMakeFiles/vtable.dir/type/integer_parent_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o.requires:
 
@@ -683,16 +683,16 @@ src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o.provides.build: src/CMa
 
 src/CMakeFiles/vtable.dir/type/integer_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/integer_type.cpp.o: ../src/type/integer_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/vtable.dir/type/integer_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/integer_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/integer_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/vtable.dir/type/integer_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/integer_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/integer_type.cpp
 
 src/CMakeFiles/vtable.dir/type/integer_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/integer_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/integer_type.cpp > CMakeFiles/vtable.dir/type/integer_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/integer_type.cpp > CMakeFiles/vtable.dir/type/integer_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/integer_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/integer_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/integer_type.cpp -o CMakeFiles/vtable.dir/type/integer_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/integer_type.cpp -o CMakeFiles/vtable.dir/type/integer_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/integer_type.cpp.o.requires:
 
@@ -707,16 +707,16 @@ src/CMakeFiles/vtable.dir/type/integer_type.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o: ../src/type/smallint_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/smallint_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/smallint_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/smallint_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/smallint_type.cpp
 
 src/CMakeFiles/vtable.dir/type/smallint_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/smallint_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/smallint_type.cpp > CMakeFiles/vtable.dir/type/smallint_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/smallint_type.cpp > CMakeFiles/vtable.dir/type/smallint_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/smallint_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/smallint_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/smallint_type.cpp -o CMakeFiles/vtable.dir/type/smallint_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/smallint_type.cpp -o CMakeFiles/vtable.dir/type/smallint_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o.requires:
 
@@ -731,16 +731,16 @@ src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o: ../src/type/tinyint_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/tinyint_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/tinyint_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/tinyint_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/tinyint_type.cpp
 
 src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/tinyint_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/tinyint_type.cpp > CMakeFiles/vtable.dir/type/tinyint_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/tinyint_type.cpp > CMakeFiles/vtable.dir/type/tinyint_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/tinyint_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/tinyint_type.cpp -o CMakeFiles/vtable.dir/type/tinyint_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/tinyint_type.cpp -o CMakeFiles/vtable.dir/type/tinyint_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o.requires:
 
@@ -755,16 +755,16 @@ src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/vtable.dir/type/type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/type.cpp.o: ../src/type/type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/vtable.dir/type/type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/vtable.dir/type/type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/type.cpp
 
 src/CMakeFiles/vtable.dir/type/type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/type.cpp > CMakeFiles/vtable.dir/type/type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/type.cpp > CMakeFiles/vtable.dir/type/type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/type.cpp -o CMakeFiles/vtable.dir/type/type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/type.cpp -o CMakeFiles/vtable.dir/type/type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/type.cpp.o.requires:
 
@@ -779,16 +779,16 @@ src/CMakeFiles/vtable.dir/type/type.cpp.o.provides.build: src/CMakeFiles/vtable.
 
 src/CMakeFiles/vtable.dir/type/value.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/value.cpp.o: ../src/type/value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/vtable.dir/type/value.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/value.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/vtable.dir/type/value.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/value.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/value.cpp
 
 src/CMakeFiles/vtable.dir/type/value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/value.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/value.cpp > CMakeFiles/vtable.dir/type/value.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/value.cpp > CMakeFiles/vtable.dir/type/value.cpp.i
 
 src/CMakeFiles/vtable.dir/type/value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/value.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/value.cpp -o CMakeFiles/vtable.dir/type/value.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/value.cpp -o CMakeFiles/vtable.dir/type/value.cpp.s
 
 src/CMakeFiles/vtable.dir/type/value.cpp.o.requires:
 
@@ -803,16 +803,16 @@ src/CMakeFiles/vtable.dir/type/value.cpp.o.provides.build: src/CMakeFiles/vtable
 
 src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o: ../src/type/varlen_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/varlen_type.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/type/varlen_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/type/varlen_type.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/varlen_type.cpp
 
 src/CMakeFiles/vtable.dir/type/varlen_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/type/varlen_type.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/type/varlen_type.cpp > CMakeFiles/vtable.dir/type/varlen_type.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/varlen_type.cpp > CMakeFiles/vtable.dir/type/varlen_type.cpp.i
 
 src/CMakeFiles/vtable.dir/type/varlen_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/type/varlen_type.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/type/varlen_type.cpp -o CMakeFiles/vtable.dir/type/varlen_type.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/type/varlen_type.cpp -o CMakeFiles/vtable.dir/type/varlen_type.cpp.s
 
 src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o.requires:
 
@@ -827,16 +827,16 @@ src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o: src/CMakeFiles/vtable.dir/flags.make
 src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o: ../src/vtable/virtual_table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o -c /mnt/d/the_remote_city/Database/scudb_initial/src/vtable/virtual_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o -c /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/vtable/virtual_table.cpp
 
 src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vtable.dir/vtable/virtual_table.cpp.i"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/scudb_initial/src/vtable/virtual_table.cpp > CMakeFiles/vtable.dir/vtable/virtual_table.cpp.i
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/vtable/virtual_table.cpp > CMakeFiles/vtable.dir/vtable/virtual_table.cpp.i
 
 src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vtable.dir/vtable/virtual_table.cpp.s"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/scudb_initial/src/vtable/virtual_table.cpp -o CMakeFiles/vtable.dir/vtable/virtual_table.cpp.s
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/vtable/virtual_table.cpp -o CMakeFiles/vtable.dir/vtable/virtual_table.cpp.s
 
 src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o.requires:
 
@@ -923,8 +923,8 @@ lib/libvtable.so: src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o
 lib/libvtable.so: src/CMakeFiles/vtable.dir/vtable/virtual_table.cpp.o
 lib/libvtable.so: src/CMakeFiles/vtable.dir/build.make
 lib/libvtable.so: src/CMakeFiles/vtable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX shared library ../lib/libvtable.so"
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vtable.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX shared library ../lib/libvtable.so"
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vtable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/vtable.dir/build: lib/libvtable.so
@@ -968,10 +968,10 @@ src/CMakeFiles/vtable.dir/requires: src/CMakeFiles/vtable.dir/vtable/virtual_tab
 .PHONY : src/CMakeFiles/vtable.dir/requires
 
 src/CMakeFiles/vtable.dir/clean:
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build/src && $(CMAKE_COMMAND) -P CMakeFiles/vtable.dir/cmake_clean.cmake
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src && $(CMAKE_COMMAND) -P CMakeFiles/vtable.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/vtable.dir/clean
 
 src/CMakeFiles/vtable.dir/depend:
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/the_remote_city/Database/scudb_initial /mnt/d/the_remote_city/Database/scudb_initial/src /mnt/d/the_remote_city/Database/scudb_initial/build /mnt/d/the_remote_city/Database/scudb_initial/build/src /mnt/d/the_remote_city/Database/scudb_initial/build/src/CMakeFiles/vtable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/src/CMakeFiles/vtable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/vtable.dir/depend
 

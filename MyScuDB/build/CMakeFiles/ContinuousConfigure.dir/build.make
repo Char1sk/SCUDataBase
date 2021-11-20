@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/the_remote_city/Database/scudb_initial
+CMAKE_SOURCE_DIR = /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/scudb_initial/build
+CMAKE_BINARY_DIR = /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousConfigure.dir/clean:
 .PHONY : CMakeFiles/ContinuousConfigure.dir/clean
 
 CMakeFiles/ContinuousConfigure.dir/depend:
-	cd /mnt/d/the_remote_city/Database/scudb_initial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/the_remote_city/Database/scudb_initial /mnt/d/the_remote_city/Database/scudb_initial /mnt/d/the_remote_city/Database/scudb_initial/build /mnt/d/the_remote_city/Database/scudb_initial/build /mnt/d/the_remote_city/Database/scudb_initial/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousConfigure.dir/depend
 
