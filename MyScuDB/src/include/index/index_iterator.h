@@ -15,16 +15,24 @@ class IndexIterator {
 public:
   // you may define your own constructor based on your member variables
   IndexIterator();
+  IndexIterator(B_PLUS_TREE_LEAF_PAGE_TYPE *leaf, int index, BufferPoolManager *bpm);
   ~IndexIterator();
 
-  bool isEnd();
+  bool isEnd() {
+    return (leaf_ == nullptr) || (index_ >= leaf_->GetSize());
+  }
 
-  const MappingType &operator*();
+  const MappingType &operator*() {
+    return leaf_->GetItem(index_);
+  }
 
   IndexIterator &operator++();
 
 private:
   // add your own private member variables here
+  B_PLUS_TREE_LEAF_PAGE_TYPE *leaf_;
+  int index_;
+  BufferPoolManager *bmp_;
 };
 
 } // namespace scudb

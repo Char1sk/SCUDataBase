@@ -25,6 +25,8 @@ namespace scudb {
 #define B_PLUS_TREE_INTERNAL_PAGE_TYPE                                         \
   BPlusTreeInternalPage<KeyType, ValueType, KeyComparator>
 
+#define BPInternalPage BPlusTreeInternalPage<KeyType, page_id_t, KeyComparator>
+
 INDEX_TEMPLATE_ARGUMENTS
 class BPlusTreeInternalPage : public BPlusTreePage {
 public:
@@ -35,6 +37,7 @@ public:
   void SetKeyAt(int index, const KeyType &key);
   int ValueIndex(const ValueType &value) const;
   ValueType ValueAt(int index) const;
+  void SetValueAt(int index, const ValueType& value);
 
   ValueType Lookup(const KeyType &key, const KeyComparator &comparator) const;
   void PopulateNewRoot(const ValueType &old_value, const KeyType &new_key,

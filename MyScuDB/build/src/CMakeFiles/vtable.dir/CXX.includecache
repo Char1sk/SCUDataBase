@@ -599,6 +599,8 @@ common/rid.h
 /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/common/rid.h
 page/b_plus_tree_leaf_page.h
 /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/page/b_plus_tree_leaf_page.h
+page/b_plus_tree_internal_page.h
+/mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/page/b_plus_tree_internal_page.h
 
 /mnt/d/the_remote_city/Database/SCUDBCourse/MyScuDB/src/page/b_plus_tree_page.cpp
 page/b_plus_tree_page.h

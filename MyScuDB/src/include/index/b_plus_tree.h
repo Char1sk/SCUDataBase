@@ -19,8 +19,9 @@
 #include "page/b_plus_tree_leaf_page.h"
 
 namespace scudb {
-
 #define BPLUSTREE_TYPE BPlusTree<KeyType, ValueType, KeyComparator>
+enum class Operation { READONLY = 0, INSERT, DELETE };
+
 // Main class providing the API for the Interactive B+ Tree.
 INDEX_TEMPLATE_ARGUMENTS
 class BPlusTree {
@@ -58,9 +59,11 @@ public:
   // read data from file and remove one by one
   void RemoveFromFile(const std::string &file_name,
                       Transaction *transaction = nullptr);
+
   // expose for test purpose
-  B_PLUS_TREE_LEAF_PAGE_TYPE *FindLeafPage(const KeyType &key,
-                                           bool leftMost = false);
+  B_PLUS_TREE_LEAF_PAGE_TYPE * FindLeafPage(const KeyType& key, bool leftMost = false,
+      Operation op = Operation::READONLY,
+      Transaction* transaction = nullptr);
 
 private:
   void StartNewTree(const KeyType &key, const ValueType &value);
@@ -78,7 +81,7 @@ private:
   bool CoalesceOrRedistribute(N *node, Transaction *transaction = nullptr);
 
   template <typename N>
-  bool Coalesce(
+  void Coalesce(
       N *&neighbor_node, N *&node,
       BPlusTreeInternalPage<KeyType, page_id_t, KeyComparator> *&parent,
       int index, Transaction *transaction = nullptr);
@@ -89,10 +92,28 @@ private:
 
   void UpdateRootPageId(int insert_record = false);
 
+  // unlock all parents
+  void UnlockUnpinPages(Operation op, Transaction* transaction);
+
+  template <typename N>
+  bool isSafe(N* node, Operation op);
+
+  inline void lockRoot() { mutex_.lock(); }
+  inline void unlockRoot() { mutex_.unlock(); }
+
   // member variable
+  class Checker {
+  public:
+      explicit Checker(BufferPoolManager* b) : buffer(b) {}
+      ~Checker() {}
+  private:
+      BufferPoolManager* buffer;
+  };
   std::string index_name_;
+  std::mutex mutex_;                       // protect `root_page_id_` from concurrent modification
+  static thread_local bool root_is_locked; // root is locked?
   page_id_t root_page_id_;
-  BufferPoolManager *buffer_pool_manager_;
+  BufferPoolManager* buffer_pool_manager_;
   KeyComparator comparator_;
 };
 
